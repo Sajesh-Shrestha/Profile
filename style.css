@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Indie+Flower&display=swap'); url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Indie+Flower&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+    background-color: aquamarine;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding:0px ;
+} 
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding:33px 0px ;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color:blanchedalmond;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    margin: 140px auto;
+    background-color:aqua;
+    height: 55vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: white;
+    background-color: coral;
+    font-weight: bold;
+    margin: 6px 6px;
+    font-size: 2em;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 10px 19px;
+    margin: 22px 0;
+}
+.btn:hover{
+    color: coral;
+    background-color: white;
+}
+.devPic img{
+    width: 500px;
+    height: 55vh; 
+}
+
+.contactform{
+    margin:0 150px;
+    padding-top:140px;
+    padding: 0px 34px;
+    font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+    
+}
+.contactform h1{
+    font-family: 'Indie Flower', cursive;
+    /*padding: 12px 0;*/
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius:5px ;
+    margin: 6px 0 0 0;
+    padding:3px ;
+}
+.contactform{
+    margin:0 40px;
+}
+#emailHelp{
+    font-size:11px;
+    color: midnightblue;
+    margin:0 5;
+    padding:3px 0 0 0;
+}
+#form-check {
+    flex-direction: row;
+    
+}
+#form-check input{
+    width: 24px;
+    margin:3px 0;
+}
+.blogContainer{
+    margin: 0 150px;
+}
+.blogItem {
+    margin: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+.blogContainer h1{
+    font-family: 'Dancing Script', cursive;
+    margin: 23px ;
+}
+.blogContainer p{
+    font-family: 'Dancing Script', cursive;
+}
+.intro{
+    margin: 0 150px;
+}
+.intro h2{
+    font-family: 'Dancing Script', cursive;
+    margin: 12px;
+
+}
+.intro p{
+    font-family: 'Indie Flower', cursive;
+    margin: 12px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display:flex;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 900;
+}
+.skill{
+    width: 365px;
+    height: 10px;
+    background-color: red;
+    border:2px solid black;
+}
+.t1{
+    width: 365px;
+    background-color: blue;
+}
+.t2{
+    width: 265px;
+    background-color: blueviolet;
+}
+.t3{
+    width: 165px;
+    background-color:green;
+}
+.t4{
+    width: 68px;
+    background-color: yellow;
+}
+.sidebarGo{
+        transform: translate(-443px, 0px);
+        position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top:8px ;
+    margin-left: 8px; ;
+}
+.cross {
+    margin-left: 100px; 
+    margin-top: 8px;
+}
+@media (max-width: 1615px) { 
+    {
+       /* background-color: red;*/
+    }
+    /*.sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }*/
+    .buttons{
+        font-size: 6px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display:none;
+    }
+    .intro .blogContainer .contactform{
+        margin: 25px 10px;
+    }
+ }
